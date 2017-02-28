@@ -2,8 +2,6 @@ body {
     background: #000;
     color: #FFFFFF;
     font-size: 100%;
-    /*font-family: "Source Code Pro", Consolas, Monaco , monospace;*/
-    /*font-family: Verdana, Arial, Helvetica, sans-serif;*/
     font-family: 'Consolas', 'Menlo', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
     margin: 0;
     padding: 0;
@@ -11,47 +9,23 @@ body {
     line-height: 1.125em
 }
 
-h1 {
-    font-size: 1.251em
+
+a {
+	color: #ff0000;
+	text-decoration: none;
+    display: inline-block;	
 }
 
-h2 {
-    font-size: 1.271em
+a:visited {
+    color: #ff0000;
 }
 
-h3 {
-    font-size: 1.429em
+a:hover {
+    color: 	#666666;
 }
 
-h4 {
-    font-size: 1.286em
-}
-
-h5 {
-    font-size: 1.143em
-}
-
-h6 {
-    font-size: 1em
-}
-
-h2, h3, h4, h5, h6 {
-    font-weight: 400;
-    line-height: 1.1;
-    margin-bottom: .8em
-}
-
-p {
-    margin-bottom: 1.143em;
-    font-size: 0.75em
-}
-
-* p:last-child {
-    margin-bottom: 0
-}
-
-strong, b {
-    font-weight: bold
+a:active {
+    color: #ff0000;
 }
 
 .body {
@@ -61,8 +35,10 @@ strong, b {
 }
 
 .menu {
+	padding: 25px 6px;
     font-size: 8pt;
     font-weight: bold;
+    text-align: center;
 }
 
 .logo {
@@ -71,13 +47,6 @@ strong, b {
     background-color: #000000;
 }
 
-.cursor {
-    font-size: 12pt;
-    animation-duration: 400ms;
-    animation-name: blink;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
 
 pre {
     white-space: pre-wrap;       /* CSS 3 */
@@ -86,3 +55,42 @@ pre {
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
     font-size: 8pt;
 }
+
+article.heading {
+    padding-top: 1em;
+    padding-bottom: 0.2em;
+    margin-bottom: 1em;
+    font-size: 8pt;
+    border-bottom: 1px dashed;
+}
+
+article.paragraph {
+    padding: 0;
+    font-size: 9pt;
+    color: #FFF;
+    line-height: 1.5em;
+}
+
+article.paragraph p {
+    color: #FFF;
+    font-size: 8pt;
+}
+
+article.paragraph h5 {
+    color: #cc6600;
+    font-weight: bold;
+}
+
+
+#container{
+         width: 670px;
+         margin: 0 auto;
+         padding: 0;
+}
+
+#menu {
+	text-align: center;
+	color: #707070;
+}
+
+
